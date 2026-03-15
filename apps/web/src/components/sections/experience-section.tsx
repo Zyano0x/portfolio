@@ -6,7 +6,7 @@ const TIMELINE = [
 		projects: [
 			{
 				name: "Marketing Platform",
-				tech: "Django REST · React · TypeScript · TanStack · Shadcn/ui",
+				tech: "Django REST · React · TypeScript · TanStack · Shadcn/ui · TailwindCSS",
 				highlights: [
 					"Architected back-end with Django REST Framework using Repository-Service-Selector pattern, building 5 modules: Task Management (with approval workflow), Store Availability monitoring across 4 delivery platforms",
 					"Built front-end with React Vite, TypeScript, TanStack Router/Query/Table, featuring 20+ modules including dashboard analytics (Recharts), drag-and-drop tasks (dnd-kit), and Excel export (ExcelJS)",
@@ -14,8 +14,8 @@ const TIMELINE = [
 				],
 			},
 			{
-				name: "ERP (Accounting System)",
-				tech: "Next.js · TypeScript · TailwindCSS · MUI · TanStack Table · Recharts",
+				name: "ERP",
+				tech: "Next.js · TypeScript · TailwindCSS · MUI",
 				highlights: [
 					"Developed front-end for an enterprise accounting ERP system with 20+ modules: Sales, Purchasing, Inventory, Cash/Banking, Fixed Assets, Costing, Tax, Receivables/Payables, General Ledger, Budget, and Reports — compliant with Vietnam Circular 200 accounting standards",
 					"Built complex data-heavy UIs using MUI DataGrid, TanStack Table, and Recharts for financial dashboards, with Excel export (ExcelJS) and multi-language support via next-intl",
@@ -24,14 +24,14 @@ const TIMELINE = [
 			},
 			{
 				name: "HRM",
-				tech: "React Vite · JavaScript",
+				tech: "React Vite · JavaScript · Shadcn/ui · TailwindCSS",
 				highlights: [
 					"Built front-end UI and integrated APIs for employee management, attendance tracking, and shift scheduling, serving 100+ employees across multiple departments",
 				],
 			},
 			{
 				name: "Customer Service",
-				tech: "React · JavaScript · TailwindCSS",
+				tech: "React · JavaScript · Shadcn/ui · TailwindCSS",
 				highlights: [
 					"Built front-end UI and integrated APIs for a ticket management system, handling 200+ support tickets monthly with real-time data synchronization",
 					"Developed back-end modules for Order Ticket management using the Repository-Service-Selector pattern, featuring automated refund ticket generation",

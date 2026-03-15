@@ -6,36 +6,38 @@ const TIMELINE = [
 		projects: [
 			{
 				name: "Marketing Platform",
-				tech: "Django REST · React · TypeScript · TanStack · Shadcn/ui · TailwindCSS",
+				tech: "Django REST Framework · React · TypeScript · TanStack · Shadcn/ui",
 				highlights: [
-					"Architected back-end with Django REST Framework using Repository-Service-Selector pattern, building 5 modules: Task Management (with approval workflow), Store Availability monitoring across 4 delivery platforms",
-					"Built front-end with React Vite, TypeScript, TanStack Router/Query/Table, featuring 20+ modules including dashboard analytics (Recharts), drag-and-drop tasks (dnd-kit), and Excel export (ExcelJS)",
-					"Implemented role-based access control, form validation with Zod + React Hook Form, and consistent UI with Shadcn/ui",
+					"Architected the back-end using Django REST Framework with the Repository-Service-Selector pattern, building 5 modules: Task Management (with approval workflow), Store Availability monitoring across 4 delivery platforms (Grab, Shopee Food, Be, Xanh Ngon), User, Role, and Settings",
+					"Built the front-end with React Vite, TypeScript, TanStack Router/Query/Table, featuring store availability reports and Excel export (ExcelJS)",
+					"Implemented role-based access control, form validation with Zod + React Hook Form, and built a consistent UI with Shadcn/ui",
 				],
 			},
 			{
 				name: "ERP",
-				tech: "Next.js · TypeScript · TailwindCSS · MUI",
+				tech: "Next.js 13 · TypeScript · MUI · TailwindCSS",
 				highlights: [
 					"Developed front-end for an enterprise accounting ERP system with 20+ modules: Sales, Purchasing, Inventory, Cash/Banking, Fixed Assets, Costing, Tax, Receivables/Payables, General Ledger, Budget, and Reports — compliant with Vietnam Circular 200 accounting standards",
-					"Built complex data-heavy UIs using MUI DataGrid, TanStack Table, and Recharts for financial dashboards, with Excel export (ExcelJS) and multi-language support via next-intl",
+					"Built complex data-heavy UIs using MUI DataGrid with Excel export (ExcelJS) and multi-language support via next-intl",
 					"Implemented form validation with Zod + React Hook Form, reusable components with Shadcn/ui, and integrated RESTful APIs via Axios, collaborating with a backend team in an Agile/Scrum workflow",
 				],
 			},
 			{
 				name: "HRM",
-				tech: "React Vite · JavaScript · Shadcn/ui · TailwindCSS",
+				tech: "React · TypeScript · TanStack · Shadcn/ui",
 				highlights: [
-					"Built front-end UI and integrated APIs for employee management, attendance tracking, and shift scheduling, serving 100+ employees across multiple departments",
+					"Built the front-end with 30+ modules, including employee management, recruitment pipeline (jobs, candidates, applications), training/LMS (courses, exams, pathways), timekeeping, salary, shift scheduling, and time-off management, serving 100+ employees",
+					"Developed interactive dashboards, training pathway visualization using XYFlow, rich-text content editing with Tiptap, and Excel export (ExcelJS)",
+					"Implemented multi-level approval workflows for work schedules and requests, and URL-synced table filtering with TanStack Table",
 				],
 			},
 			{
 				name: "Customer Service",
-				tech: "React · JavaScript · Shadcn/ui · TailwindCSS",
+				tech: "Django REST Framework · React · TypeScript · TanStack · Shadcn/ui",
 				highlights: [
-					"Built front-end UI and integrated APIs for a ticket management system, handling 200+ support tickets monthly with real-time data synchronization",
+					"Built front-end with 20+ modules including dashboard analytics (Recharts), ticket management with drag-and-drop (dnd-kit), handling 200+ support tickets monthly with real-time data synchronization",
 					"Developed back-end modules for Order Ticket management using the Repository-Service-Selector pattern, featuring automated refund ticket generation",
-					"Managed complex application state using React Context and TanStack Query to handle multi-step support workflows",
+					"Managed complex application state using React Context and TanStack Query to handle multi-step support workflows and deliver a unified customer service experience",
 				],
 			},
 		],

@@ -1,30 +1,52 @@
-"use client";
-
-const TITLE_TEXT = `
- ██████╗ ███████╗████████╗████████╗███████╗██████╗
- ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
- ██████╔╝█████╗     ██║      ██║   █████╗  ██████╔╝
- ██╔══██╗██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗
- ██████╔╝███████╗   ██║      ██║   ███████╗██║  ██║
- ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝
-
- ████████╗    ███████╗████████╗ █████╗  ██████╗██╗  ██╗
- ╚══██╔══╝    ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝
-    ██║       ███████╗   ██║   ███████║██║     █████╔╝
-    ██║       ╚════██║   ██║   ██╔══██║██║     ██╔═██╗
-    ██║       ███████║   ██║   ██║  ██║╚██████╗██║  ██╗
-    ╚═╝       ╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
- `;
+import Reveal from "@/components/reveal";
+import AboutSection from "@/components/sections/about-section";
+import ContactSection from "@/components/sections/contact-section";
+import EducationSection from "@/components/sections/education-section";
+import ExperienceSection from "@/components/sections/experience-section";
+import HeroSection from "@/components/sections/hero-section";
+import ProjectsSection from "@/components/sections/projects-section";
+import SkillsSection from "@/components/sections/skills-section";
 
 export default function Home() {
-  return (
-    <div className="container mx-auto max-w-3xl px-4 py-2">
-      <pre className="overflow-x-auto font-mono text-sm">{TITLE_TEXT}</pre>
-      <div className="grid gap-6">
-        <section className="rounded-lg border p-4">
-          <h2 className="mb-2 font-medium">API Status</h2>
-        </section>
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<HeroSection />
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<AboutSection />
+			</Reveal>
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<ExperienceSection />
+			</Reveal>
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<ProjectsSection />
+			</Reveal>
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<SkillsSection />
+			</Reveal>
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<EducationSection />
+			</Reveal>
+			<div className="mx-auto max-w-7xl px-6 lg:px-12">
+				<div className="h-px w-full bg-border" />
+			</div>
+			<Reveal>
+				<ContactSection />
+			</Reveal>
+		</>
+	);
 }
